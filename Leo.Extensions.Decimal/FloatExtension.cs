@@ -11,8 +11,10 @@ namespace Leo.Extensions
         /// <summary>
         /// 取有数效数字位
         /// </summary>
-        /// <param name="value"></param>
-        /// <param name="precision"></param>
+        /// <param name="value">数字</param>
+        /// <param name="precision">精度</param>
+        /// <param name="scientificNotation">是否使用科学计数法</param>
+        /// <param name="useScientificNotationLength">使用科学计数法的长度</param>
         /// <returns></returns>
         public static string ValidDecimal(this float value, int precision = 2, bool scientificNotation = true, int useScientificNotationLength = 5)
         {
