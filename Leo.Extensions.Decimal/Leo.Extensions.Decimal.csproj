@@ -5,7 +5,7 @@
     <RootNamespace>Leo.Extensions</RootNamespace>
     <Authors>Leo</Authors>
     <Description>add scientific notation</Description>
-    <Version>1.0.2</Version>
+    <Version>0.0.2</Version>
   </PropertyGroup>
 
 </Project>
